@@ -19,17 +19,17 @@ p {
 }
 
 header .navbar {
-    transition: all 0.3s ease;
+    transition: all .5s ease-out;
 }
 
-/* header .navbar .navbar-brand h2 {
+header .navbar .navbar-brand h2 {
     color: white;
 }
 
 
 header .navbar .navbar-nav .nav-link {
     color: white;
-} */
+}
 
 header.scrolled .navbar {
     background-color: white;

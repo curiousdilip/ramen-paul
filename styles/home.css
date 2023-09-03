@@ -1,4 +1,59 @@
 #hero {
-    height: 200vh;
+    height: 100vh;
     background-color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/hero-image.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 17% 0;
+}
+
+#hero h1 {
+    margin-top: 40px;
+    color: #fff;
+}
+
+#hero h3 {
+    color: #fff;
+    margin: 40px 0;
+}
+
+
+#hero a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#quote {
+    background-color: #262626;
+    color: #fff;
+    padding: 5% 0;
+}
+
+#quote p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#quote p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#about {
+    padding: 5% 0;
+}
+
+#about img {
+    border-radius: 800px;
+}
+
+
+#about h4 {
+    margin: 20px 0;
 }
