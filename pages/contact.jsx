@@ -1,9 +1,21 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Footer from "@/components/Footer";
 import RHeader from "@/components/RHeader";
 import Head from "next/head";
 import React from "react";
+import { useRouter } from 'next/router';
+
 
 const contact = () => {
+    // function handleSubmit(event) {
+    //     event.preventDefault();
+    //     // Submit your form data here (e.g., via fetch or another method)
+
+    //     // Add a brief delay to ensure the form data is sent before reloading
+    //     setTimeout(() => {
+    //         window.location.reload();
+    //     }, 4000); // 1000 milliseconds (1 second)
+    // }
     return (
         <>
             <Head>
@@ -21,29 +33,33 @@ const contact = () => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-8">
-                                <form>
+                                <form action="https://script.google.com/macros/s/AKfycbzuJKJyf_eQo8qE6e6FEOufa69jHhNWkK82t8222BnK3p9VHKAJQ8k6Ef7rmgxCgnAy/exec" method="POST" >
                                     <input
                                         type="name"
-                                        class="form-control mb-3"
+                                        name="name"
+                                        className="form-control mb-3"
                                         placeholder="Name"
                                     />
                                     <input
                                         type="email"
-                                        class="form-control mb-3"
+                                        name="email"
+                                        className="form-control mb-3"
                                         placeholder="Email"
                                     />
                                     <input
                                         type="tel"
-                                        class="form-control mb-3"
+                                        name="phone"
+                                        className="form-control mb-3"
                                         placeholder="Phone number"
                                     />
                                     <textarea
-                                        class="form-control mb-3"
+                                        name="message"
+                                        className="form-control mb-3"
                                         rows="3"
                                         placeholder="Your Message"
                                     ></textarea>
 
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="submit" className="btn btn-primary">
                                         Send Now
                                     </button>
                                 </form>
@@ -84,25 +100,28 @@ const contact = () => {
                                         <h4>Follow </h4>
                                         <ul>
                                             <li>
-                                                <a href="/">
+                                                <a href="https://www.instagram.com/ramen_paul">
                                                     <i className="bi bi-instagram"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <a href="https://www.linkedin.com/in/ramen-paul-6a612180/">
                                                     <i className="bi bi-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <a href="https://www.youtube.com/user/ramensir">
                                                     <i className="bi bi-youtube"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="/">
+                                                <a href="https://www.facebook.com/ramen.paul.9">
                                                     <i className="bi bi-facebook"></i>
                                                 </a>
                                             </li>
+                                            <li><a href="https://twitter.com/ramen_paul">
+                                                <i className="bi bi-twitter"></i>
+                                            </a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -111,6 +130,7 @@ const contact = () => {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     );
 };

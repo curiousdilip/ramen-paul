@@ -61,8 +61,8 @@ const RHeader = () => {
                                 <Nav.Link href="/about" className={activePath === '/about' ? 'active' : ''}>About</Nav.Link>
 
                                 <NavDropdown title="Gallery" id="gallery">
-                                    <NavDropdown.Item href="/vocals">Videos</NavDropdown.Item>
-                                    <NavDropdown.Item href="/drums">Photos</NavDropdown.Item>
+                                    <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
+                                    <NavDropdown.Item href="/photos">Photos</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Classes" id="classes">
                                     <NavDropdown.Item href="/vocals">Vocals</NavDropdown.Item>

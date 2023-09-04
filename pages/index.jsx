@@ -4,6 +4,7 @@ import AOS from "aos";
 import Image from "next/image";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   useEffect(() => {
@@ -189,6 +190,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

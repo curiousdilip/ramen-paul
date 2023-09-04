@@ -5,6 +5,7 @@ import React from 'react'
 import Image from "next/image"
 import Experience from "@/components/Experience"
 import Education from "@/components/Education"
+import Footer from "@/components/Footer"
 const about = () => {
     return (
         <>
@@ -93,6 +94,7 @@ const about = () => {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     )
 }

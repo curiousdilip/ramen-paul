@@ -162,3 +162,58 @@ header.scrolled .navbar .navbar-nav .nav-link {
 .education .description {
     font-style: italic;
 }
+
+footer {
+    padding-top: 5%;
+    background-color: #000;
+    color: #fff;
+}
+
+footer p {
+    margin: 20px 0;
+}
+
+footer .follow ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer .follow ul li a {
+    font-size: 30px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+footer .links ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer .links ul li a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .contact ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer .contact ul li {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+footer .bottom-footer {
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+    margin-top: 5%;
+
+}
