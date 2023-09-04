@@ -31,6 +31,27 @@ header .navbar .navbar-nav .nav-link {
     color: white;
 }
 
+.pageHeader .navbar {
+    background-color: white;
+    box-shadow: 0px 0px 90px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pageHeader .navbar .navbar-brand h2 {
+    color: #000;
+}
+
+.pageHeader .navbar .navbar-nav .nav-link {
+    color: #000;
+}
+
+.pageHeader .scrolled .navbar .navbar-brand h2 {
+    color: black;
+}
+
+.pageHeader .scrolled .navbar .navbar-nav .nav-link {
+    color: black;
+}
+
 header.scrolled .navbar {
     background-color: white;
     box-shadow: 0px 0px 90px 20px rgba(0, 0, 0, 0.1);
@@ -47,20 +68,29 @@ header.scrolled .navbar .navbar-nav .nav-link {
 /* Braedcrumbs */
 .breadcrumbs {
     margin-top: 64px;
-    padding: 15% 0;
-    background: url("/about-breadcrumb.jpg") no-repeat;
-    background-size: cover;
 }
 
-/* .breadcrumbs .About {
+.breadcrumbs .about {
     padding: 15% 0;
-    background: url("/about-breadcrumb.jpg") no-repeat;
+    background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/about-breadcrumb.jpg") no-repeat;
     background-size: cover;
-} */
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.breadcrumbs .contact {
+    padding: 15% 0;
+    background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/contact-breadcrumb.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
 
 .breadcrumbs h3 {
     font-size: 80px;
     font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
 }
 
 .backToTopButton {
@@ -81,4 +111,54 @@ header.scrolled .navbar .navbar-nav .nav-link {
 
 .backToTopButton i {
     font-size: 30px;
+}
+
+/* experience */
+
+.experience {
+    margin: 20px 0;
+}
+
+.experience .title {
+    font-size: 30px;
+}
+
+.experience .company-name {
+    margin-bottom: 10px;
+}
+
+.experience .duration {
+    margin-bottom: 5px;
+}
+
+.experience .location {
+    margin-bottom: 10px;
+}
+
+.experience .description {
+    font-style: italic;
+}
+
+.education {
+    margin: 20px 0;
+}
+
+.education .institute {
+    font-size: 30px;
+}
+
+.education .course {
+    margin-bottom: 10px;
+}
+
+.education .duration {
+    margin-bottom: 5px;
+}
+
+.education .location {
+    margin-bottom: 10px;
+}
+
+.education .description {
+    font-style: italic;
 }

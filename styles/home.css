@@ -1,7 +1,7 @@
 #hero {
     height: 100vh;
     background-color: white;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/hero-image.jpeg") no-repeat;
+    background: linear-gradient(180deg, rgba(36, 36, 36, 0.60), rgba(36, 36, 36, 0.60)), url("/hero-image.jpeg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -75,8 +75,6 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/feature-bg.jpeg") no-repeat;
     background-size: cover;
 }
-
-
 
 #tutorials {
     padding: 5% 0;

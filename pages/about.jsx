@@ -1,8 +1,10 @@
 import Breadcrumbs from "@/components/Breadcrumbs"
-import Header from "@/components/Header"
+import RHeader from "@/components/RHeader"
 import Head from "next/head"
 import React from 'react'
-
+import Image from "next/image"
+import Experience from "@/components/Experience"
+import Education from "@/components/Education"
 const about = () => {
     return (
         <>
@@ -11,10 +13,84 @@ const about = () => {
                 <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <Header />
-            <Breadcrumbs pageName="About" />
+            <RHeader />
+            <Breadcrumbs pageName="about" />
             <main>
+                <section id="about-hero">
+                    <div className="container">
+                        <div className="row justify-content-center align-items-center">
+                            <div className="col-md-6">
+                                <Image
+                                    src="/about-img.png"
+                                    width={400}
+                                    height={400}
+                                    style={{
+                                        objectFit: "cover",
+                                        borderRadius: "50%"
+                                    }}
+                                    alt="Picture of Ramen Paul"
+                                />
+                            </div>
+                            <div className="col-md-6">
+                                <h2>About Me</h2>
+                                <h4>
+                                    Hi, I’m Ramen Paul, Authorized teacher of Trinity College,
+                                    London.
+                                </h4>
+                                <h5>
+                                    Trained in England (1993) France(1994) and U.S. (1995-98)
+                                    Teaching music since last 15 years,authorized teacher of
+                                    Trinity college, Rock school, Rock and Pop and Royal college,
+                                    London.Have performed in 22 countries with the Calcutta String
+                                    Quartet and now playing with the Delhi String Quartet.Have
+                                    sent many students for international examinations.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about-work">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <h2>Work Experience</h2>
+                                <Experience />
 
+                            </div>
+                            <div className="col-md-6">  <Image
+                                src="/about-work.jpeg"
+                                width={500}
+                                height={300}
+                                style={{
+                                    objectFit: "cover",
+                                    borderRadius: "20px"
+                                }}
+                                alt="Picture of Ramen Paul"
+                            /></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="about-education">
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-md-6">
+                                <Image
+                                    src="/about-work.jpeg"
+                                    width={500}
+                                    height={300}
+                                    style={{
+                                        objectFit: "cover",
+                                        borderRadius: "20px"
+                                    }}
+                                    alt="Picture of Ramen Paul"
+                                />
+                            </div>
+                            <div className="col-md-6">
+                                <Education />
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
         </>
     )
