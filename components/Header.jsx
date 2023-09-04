@@ -9,9 +9,15 @@ const Header = ({ theme }) => {
     const router = useRouter();
     const [activePath, setActivePath] = useState('/');
     const [scrolled, setScrolled] = useState(false);
+    const [showBackToTop, setShowBackToTop] = useState(false);
 
     const handleScroll = () => {
         setScrolled(window.scrollY > 10);
+        setShowBackToTop(window.scrollY > 200);
+    };
+
+    const handleBackToTopClick = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     useEffect(() => {
@@ -68,6 +74,13 @@ const Header = ({ theme }) => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            {showBackToTop && (
+
+                <div className="backToTopButton" onClick={handleBackToTopClick}>
+                    <i class="bi bi-arrow-up-circle "></i>
+                </div>
+
+            )}
         </header>
     );
 };

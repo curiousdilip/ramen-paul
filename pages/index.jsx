@@ -100,7 +100,7 @@ export default function Home() {
             <div className="row">
               <div className="col-md-12">
                 <iframe
-                  width="1160"
+                  width="100%"
                   height="653"
                   src="https://www.youtube.com/embed/ZKAt7HzIpmo"
                   title="learn violin initial part -1"
@@ -169,19 +169,19 @@ export default function Home() {
             <div className="row">
               <div className="col-md-4">
                 <div className="ct-box">
-                  <i class="bi bi-map"></i>
+                  <i className="bi bi-map"></i>
                   <p> Dwarka , New Delhi, India</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="ct-box">
-                  <i class="bi bi-envelope"> </i>
+                  <i className="bi bi-envelope"> </i>
                   <p> ramen.paul14@gmail.com</p>
                 </div>
               </div>
               <div className="col-md-4">
                 <div className="ct-box">
-                  <i class="bi bi-telephone"> </i>
+                  <i className="bi bi-telephone"> </i>
                   <p> +91 98110 71981</p>
                 </div>
               </div>
