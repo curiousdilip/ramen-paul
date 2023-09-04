@@ -1,0 +1,38 @@
+#contact-hero {
+    padding: 5% 0;
+}
+
+
+#contact-hero .details {
+    padding: 20px;
+}
+
+#contact-hero .details .box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+#contact-hero .details .box .icon i {
+    font-size: 30px;
+    padding-right: 20px;
+}
+
+#contact-hero .details .follow ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+#contact-hero .details .follow ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact-hero .details .follow ul li a i {
+    font-size: 30px;
+    margin-right: 20px;
+}

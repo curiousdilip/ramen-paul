@@ -86,6 +86,7 @@ const about = () => {
                                 />
                             </div>
                             <div className="col-md-6">
+                                <h2>Education</h2>
                                 <Education />
                             </div>
                         </div>

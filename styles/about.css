@@ -8,10 +8,21 @@
 
 #about-work {
     padding: 5% 0;
-
+    background-color: #f1f5f9;
 }
 
 #about-work h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#about-education {
+    padding: 5% 0;
+
+}
+
+#about-education h2 {
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;

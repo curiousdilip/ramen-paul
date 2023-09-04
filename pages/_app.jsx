@@ -3,6 +3,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/global.css'
 import '../styles/home.css'
 import '../styles/about.css'
+import '../styles/contact.css'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
