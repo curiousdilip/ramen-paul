@@ -3,6 +3,7 @@
     background-color: white;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("/hero-image.jpeg") no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center center;
     padding: 17% 0;
 }
@@ -56,4 +57,105 @@
 
 #about h4 {
     margin: 20px 0;
+}
+
+#gallery-home {
+    padding: 5% 0;
+
+}
+
+#gallery-home h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#feature {
+    padding: 5% 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/feature-bg.jpeg") no-repeat;
+    background-size: cover;
+}
+
+
+
+#tutorials {
+    padding: 5% 0;
+
+}
+
+#tutorials h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#tutorials a {
+    text-decoration: none;
+    display: block;
+}
+
+
+#tutorials .class-box {
+    padding: 30px 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+#tutorials .class-box i {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    color: #000;
+}
+
+#tutorials .class-box h3 {
+    color: #000;
+    margin: 20px 0;
+}
+
+#tutorials .class-box p {
+    color: #000;
+}
+
+#contact {
+    padding: 5% 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/contact-bg.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#contact h2 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#contact .ct-box {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contact .ct-box i {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
