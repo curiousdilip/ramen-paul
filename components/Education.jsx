@@ -6,7 +6,7 @@ const Education = () => {
         <>
 
             {education.map((item, index) => (
-                <div className="education" key={index}>
+                <div className="education" key={index} data-aos="fade-left">
                     <h4 className="institute">{item.institute}</h4>
                     <h5 className="course">{item.course}</h5>
                     <p className="duration">{item.duration}</p>

@@ -1,15 +1,13 @@
 import Header from "@/components/Header";
 import Head from "next/head";
-import AOS from "aos";
+
 import Image from "next/image";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
+
 import Footer from "@/components/Footer";
+import { gallery } from "@/data/home";
 
 export default function Home() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <>
       <Head>
@@ -28,7 +26,7 @@ export default function Home() {
               <div className="col-md-12 text-center">
                 <h1 data-aos="fade-up">Ramen Paul</h1>
                 <h3 data-aos="fade-up">
-                  Cellist cum all Rounder and a Sound Engineer
+                  Western Music Teacher, Cellist and a Sound Engineer
                 </h3>
                 <div className="hero-btn">
                   <a href="#about" data-aos="fade-right">
@@ -57,7 +55,7 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <Image
+                <Image data-aos="fade-right"
                   src="/about-img.png"
                   width={300}
                   height={500}
@@ -65,12 +63,12 @@ export default function Home() {
                 />
               </div>
               <div className="col-md-8">
-                <h2>About Me</h2>
-                <h4>
+                <h2 data-aos="fade-left">About Me</h2>
+                <h4 data-aos="fade-left">
                   Hi, I’m Ramen Paul, Authorized teacher of Trinity College,
                   London.
                 </h4>
-                <h5>
+                <h5 data-aos="fade-left">
                   Trained in England (1993) France(1994) and U.S. (1995-98)
                   Teaching music since last 15 years,authorized teacher of
                   Trinity college, Rock school, Rock and Pop and Royal college,
@@ -86,12 +84,29 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2>Gallery</h2>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur necessitatibus voluptatum aliquid quibusdam
-                inventore sint cumque quis maiores autem velit exercitationem
-                amet vero eaque accusantium distinctio pariatur, quaerat, ipsam
-                repellat.
+                <h2 data-aos="fade-up">Gallery</h2>
+
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="gallery" data-aos="fade-up">
+
+                  {gallery.map((item, index) => (
+                    <div className="box" key={index}>
+                      <Image
+                        src={
+                          item.src
+                        }
+                        width={350}
+                        height={250}
+                        alt={item.alt}
+                        style={{ objectFit: "cover" }}
+                      />
+                    </div>
+                  ))}
+
+                </div>
               </div>
             </div>
           </div>
@@ -117,12 +132,12 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2>Tutorials</h2>
+                <h2 data-aos="fade-up">Tutorials</h2>
               </div>
             </div>
             <div className="row">
               <div className="col-md-3 text-center">
-                <a href="" className="violin">
+                <a href="/violin" className="violin" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Violin</h3>
@@ -131,7 +146,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-md-3 text-center">
-                <a href="" className="guitar">
+                <a href="/guitar" className="guitar" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Guitar</h3>
@@ -140,7 +155,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-md-3 text-center">
-                <a href="" className="vocals">
+                <a href="/vocals" className="vocals" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Vocals</h3>
@@ -149,7 +164,7 @@ export default function Home() {
                 </a>
               </div>
               <div className="col-md-3 text-center">
-                <a href="" className="drums">
+                <a href="/drums" className="drums" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Drums</h3>
@@ -164,7 +179,7 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h2>Contact Me</h2>
+                <h2 data-aos="fade-up">Contact Me</h2>
               </div>
             </div>
             <div className="row">

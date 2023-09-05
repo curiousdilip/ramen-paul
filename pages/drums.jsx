@@ -20,7 +20,7 @@ const drums = () => {
                         <div className="row">
                             <div className="col-md-12">
                                 {drumsVideos.map((item, index) => (
-                                    <div className="video-box" key={index}>
+                                    <div className="video-box" key={index} data-aos="fade-up">
                                         <iframe width="100%" height="650" src={item.srcLink} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                                     </div>
                                 ))}

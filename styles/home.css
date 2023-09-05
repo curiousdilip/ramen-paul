@@ -61,13 +61,20 @@
 
 #gallery-home {
     padding: 5% 0;
-
+    background-color: #f1f5f9;
 }
 
 #gallery-home h2 {
     font-size: 60px;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+#gallery-home .gallery {
+    display: grid;
+    place-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 
 #feature {

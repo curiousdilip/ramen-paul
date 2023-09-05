@@ -21,7 +21,7 @@ const about = () => {
                     <div className="container">
                         <div className="row justify-content-center align-items-center">
                             <div className="col-md-6">
-                                <Image
+                                <Image data-aos="fade-right"
                                     src="/about-img.png"
                                     width={400}
                                     height={400}
@@ -33,12 +33,12 @@ const about = () => {
                                 />
                             </div>
                             <div className="col-md-6">
-                                <h2>About Me</h2>
-                                <h4>
+                                <h2 data-aos="fade-left">About Me</h2>
+                                <h4 data-aos="fade-left">
                                     Hi, I’m Ramen Paul, Authorized teacher of Trinity College,
                                     London.
                                 </h4>
-                                <h5>
+                                <h5 data-aos="fade-left">
                                     Trained in England (1993) France(1994) and U.S. (1995-98)
                                     Teaching music since last 15 years,authorized teacher of
                                     Trinity college, Rock school, Rock and Pop and Royal college,
@@ -54,11 +54,11 @@ const about = () => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <h2>Work Experience</h2>
+                                <h2 >Work Experience</h2>
                                 <Experience />
 
                             </div>
-                            <div className="col-md-6">  <Image
+                            <div className="col-md-6">  <Image data-aos="fade-left"
                                 src="/about-work.jpeg"
                                 width={500}
                                 height={300}
@@ -75,7 +75,7 @@ const about = () => {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-md-6">
-                                <Image
+                                <Image data-aos="fade-right"
                                     src="/about-work.jpeg"
                                     width={500}
                                     height={300}

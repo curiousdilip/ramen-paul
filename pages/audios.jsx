@@ -17,26 +17,18 @@ const audios = () => {
             <RHeader />
             <Breadcrumbs pageName="audio" />
             <main>
-                <section id="drums-tutorials">
+                <section id="audio">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                {/* {audio.map((item, index) => (
-                                    <div className="video-box" key={index}>
-                                        <iframe width="100%" height="650" src={item.srcLink} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                                    </div>
-                                ))} */}
-
-
                                 {audio.map((item, index) => (
-                                    <div className="audio-box" key={index}>
+                                    <div className="audio-box" key={index} data-aos="fade-up">
                                         <AudioPlayer
 
                                             src={item.src}
                                             preload="metadata"
                                             header={item.title}
                                             footer="By Ramen Paul"
-                                        // other props here
                                         />
                                     </div>
                                 ))}
