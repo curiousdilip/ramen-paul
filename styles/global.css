@@ -83,6 +83,15 @@ header.scrolled .navbar .navbar-nav .nav-link {
     background-position: center top;
 }
 
+.breadcrumbs .photos {
+    position: relative;
+    padding: 15% 0;
+    background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/about-breadcrumb.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
 .breadcrumbs .contact {
     padding: 15% 0;
     background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/contact-breadcrumb.jpeg") no-repeat;

@@ -32,7 +32,7 @@ const guitar = () => {
                             <div className="col-md-12">
                                 {guitarVideos.map((item, index) => (
                                     <div className="video-box" key={index} data-aos="fade-up">
-                                        <iframe width="100%" height="650" src={item.srcLink} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                                        <iframe width="100%" height="650" src={item.srcLink} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy"></iframe>
                                     </div>
                                 ))}
                             </div>

@@ -5,6 +5,7 @@ import '../styles/home.css'
 import '../styles/about.css'
 import '../styles/contact.css'
 import '../styles/photos.css'
+import '../styles/audios.css'
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";

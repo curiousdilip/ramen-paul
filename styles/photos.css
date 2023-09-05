@@ -1,3 +1,14 @@
 #photos-hero {
     padding: 5% 0;
 }
+
+#grid-images {
+    padding: 5% 0;
+}
+
+#grid-images .images {
+    display: grid;
+    place-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
