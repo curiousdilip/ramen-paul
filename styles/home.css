@@ -8,14 +8,15 @@
     padding: 17% 0;
 }
 
-#hero h1 {
+#hero h3 {
     margin-top: 40px;
     color: #fff;
+    font-size: 50px;
 }
 
-#hero h3 {
+#hero h1 {
     color: #fff;
-    margin: 40px 0;
+    margin: 35px 0;
 }
 
 

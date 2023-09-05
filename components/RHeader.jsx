@@ -63,6 +63,7 @@ const RHeader = () => {
                                 <NavDropdown title="Gallery" id="gallery">
                                     <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
                                     <NavDropdown.Item href="/photos">Photos</NavDropdown.Item>
+                                    <NavDropdown.Item href="/audios">Audios</NavDropdown.Item>
                                 </NavDropdown>
                                 <NavDropdown title="Tutorials" id="tutorial">
                                     <NavDropdown.Item href="/vocals">Vocals</NavDropdown.Item>

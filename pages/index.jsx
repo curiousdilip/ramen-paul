@@ -32,10 +32,10 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h1 data-aos="fade-up">Ramen Paul</h1>
-                <h3 data-aos="fade-up">
+                <h3 data-aos="fade-up">Ramen Paul</h3>
+                <h1 data-aos="fade-up">
                   Western Music Teacher, Cellist and a Sound Engineer
-                </h3>
+                </h1>
                 <div className="hero-btn">
                   <a href="#about" data-aos="fade-right">
                     Know More
