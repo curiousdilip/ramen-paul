@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ramen Paul – We are Nothing</title>
+        <title>Ramen Paul | We are Nothing</title>
         <meta
           name="description"
           content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London."
