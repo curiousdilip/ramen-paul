@@ -33,7 +33,7 @@ const about = () => {
                         <div className="row justify-content-center align-items-center">
                             <div className="col-md-6">
                                 <Image data-aos="fade-right"
-                                    src="/about-img.png"
+                                    src="/about-img.jpg"
                                     width={400}
                                     height={400}
                                     style={{

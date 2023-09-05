@@ -64,7 +64,7 @@ export default function Home() {
             <div className="row align-items-center">
               <div className="col-md-4">
                 <Image data-aos="fade-right"
-                  src="/about-img.png"
+                  src="/about-img.jpg"
                   width={300}
                   height={500}
                   alt="Picture of Ramen Paul"
