@@ -23,11 +23,11 @@ export default function App({ Component, pageProps }) {
         <meta name="keywords" content="ramenpaul, ramensir, ramen mcs, ramen western music, musicteacher" />
         <meta
           property="og:image"
-          content={`/about-breadcrumb.jpg`}
+          content={`https://ramen-paul.vercel.app/about-breadcrumb.jpg`}
         />
         <meta
           name="twitter:image"
-          content={`/about-breadcrumb.jpg`}
+          content={`https://ramen-paul.vercel.app/about-breadcrumb.jpg`}
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ export default function App({ Component, pageProps }) {
               "@type": "Organization",
               "url": "https://www.ramenpaul.com/",
               "name": "Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer",
-              "logo": "/about-breadcrumb.jpg",
+              "logo": "https://ramen-paul.vercel.app/about-breadcrumb.jpg",
               "description": "Ramen Paul is a Authorized Trinity College, London Teacher | Certified in England, France, and the U.S.",
               "contactPoint": {
                 "@type": "ContactPoint",
