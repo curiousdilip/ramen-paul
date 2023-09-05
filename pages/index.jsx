@@ -117,7 +117,6 @@ export default function Home() {
               <div className="col-md-12">
                 <iframe
                   width="100%"
-                  height="653"
                   src="https://www.youtube.com/embed/ZKAt7HzIpmo"
                   title="learn violin initial part -1"
                   frameBorder="0"
@@ -204,7 +203,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main>
+      </main >
       <Footer />
     </>
   );

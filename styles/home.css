@@ -83,6 +83,10 @@
     background-size: cover;
 }
 
+#feature iframe {
+    height: 550px;
+}
+
 #tutorials {
     padding: 5% 0;
 
@@ -163,4 +167,63 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width:768px) {
+
+    #hero {
+        height: auto;
+        padding: 40% 0;
+        background-size: auto;
+        background-position: top;
+    }
+
+    #about {
+        padding: 10% 0;
+    }
+
+    #about img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    #about h2 {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #gallery-home {
+        padding: 10% 0;
+    }
+
+    #gallery-home .gallery {
+        grid-template-columns: auto;
+    }
+
+    #feature {
+        padding: 10% 0;
+    }
+
+    #feature iframe {
+        height: 200px;
+    }
+
+    #tutorials {
+        padding: 10% 0;
+    }
+
+
+    #tutorials .class-box {
+        margin: 2% 0;
+    }
+
+    #contact {
+        padding: 10% 0;
+    }
+
+    #contact .ct-box {
+        justify-content: flex-start;
+        padding-left: 5%;
+        padding-bottom: 20px;
+    }
 }

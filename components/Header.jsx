@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 
 
-const Header = ({ theme }) => {
+const Header = () => {
     const router = useRouter();
     const [activePath, setActivePath] = useState('/');
     const [scrolled, setScrolled] = useState(false);
