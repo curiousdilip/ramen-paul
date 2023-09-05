@@ -12,26 +12,19 @@ export default function Home() {
     <>
       <Head>
         <meta property="og:url" content="https://www.ramenpaul.com/" />
-        <meta property="og:type" content="website" />
         <meta
           property="og:site_name"
-          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
+          content="Ramen Paul | Cellist and a Sound Engineer"
         />
         <meta
           property="og:title"
-          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
+          content="Ramen Paul | Cellist and a Sound Engineer"
         />
-
         <meta
           name="twitter:title"
-          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
+          content="Ramen Paul | Cellist and a Sound Engineer"
         />
-
-
-
-
-        <title>Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ramen Paul | Cellist and a Sound Engineer</title>
       </Head>
       <Header />
       <main>
