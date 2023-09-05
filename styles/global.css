@@ -281,17 +281,8 @@ footer .bottom-footer {
 }
 
 @media (max-width:786px) {
-    .mainHeader .navbar-collapse.show {
+    .mainHeader .navbar {
         background-color: rgba(0, 0, 0, 0.5);
-        padding: 20px;
-        margin-top: 20px;
-        border-radius: 10px;
-    }
-
-    .mainHeader .navbar-collapse {
-        padding: 20px;
-        margin-top: 20px;
-        transition: all 0.3s ease-in-out;
     }
 
     .breadcrumbs {
@@ -329,5 +320,48 @@ footer .bottom-footer {
 
     .video-box iframe {
         height: 250px;
+    }
+
+    .breadcrumbs h3 {
+        font-size: 40px;
+    }
+
+    .breadcrumbs .about {
+        padding: 20% 0;
+        background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/about-breadcrumb.jpg") no-repeat;
+        background-size: cover;
+        background-attachment: auto;
+    }
+
+    .breadcrumbs .contact {
+        padding: 20% 0;
+
+    }
+
+    .breadcrumbs .drums {
+        padding: 20% 0;
+
+    }
+
+    .breadcrumbs .violin {
+        padding: 20% 0;
+    }
+
+    .breadcrumbs .vocals {
+        padding: 20% 0;
+    }
+
+    .breadcrumbs .guitar {
+        padding: 20% 0;
+
+    }
+
+    .breadcrumbs .videos {
+        padding: 20% 0;
+
+    }
+
+    .breadcrumbs .audio {
+        padding: 20% 0;
     }
 }

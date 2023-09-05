@@ -90,10 +90,10 @@ export default function Home() {
             </div>
             <div className="row">
               <div className="col-md-12">
-                <div className="gallery" data-aos="fade-up">
+                <div className="gallery">
 
                   {gallery.map((item, index) => (
-                    <div className="box" key={index}>
+                    <div className="box" key={index} data-aos="fade-up">
                       <Image
                         src={
                           item.src
@@ -105,7 +105,6 @@ export default function Home() {
                       />
                     </div>
                   ))}
-
                 </div>
               </div>
             </div>

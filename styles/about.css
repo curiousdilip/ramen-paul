@@ -27,3 +27,35 @@
     font-weight: 600;
     margin-bottom: 20px;
 }
+
+@media (max-width:768px) {
+    #about-hero {
+        padding: 10% 0;
+    }
+
+    #about-hero img {
+        height: 350px;
+        width: 94vw;
+    }
+
+    #about-hero h2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #about-work {
+        padding: 10% 0;
+    }
+
+    #about-work img {
+        width: 94vw;
+    }
+
+    #about-education {
+        padding: 10% 0;
+    }
+
+    #about-education img {
+        width: 94vw;
+    }
+}
