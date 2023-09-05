@@ -8,9 +8,20 @@ const violin = () => {
     return (
         <>
             <Head>
-                <title>Vocals | Ramen Paul</title>
-                <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:url" content="https://www.ramenpaul.com/violin" />
+                <meta
+                    property="og:site_name"
+                    content="Violin | Ramen Paul"
+                />
+                <meta
+                    property="og:title"
+                    content="Violin | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Violin | Ramen Paul"
+                />
+                <title>Violin | Ramen Paul</title>
             </Head>
             <RHeader />
             <Breadcrumbs pageName="violin" />

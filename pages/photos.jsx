@@ -15,9 +15,20 @@ const photos = () => {
     return (
         <>
             <Head>
-                <title>Vocals | Ramen Paul</title>
-                <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:url" content="https://www.ramenpaul.com/photos" />
+                <meta
+                    property="og:site_name"
+                    content="Photos | Ramen Paul"
+                />
+                <meta
+                    property="og:title"
+                    content="Photos | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Photos | Ramen Paul"
+                />
+                <title>Photos | Ramen Paul</title>
             </Head>
             <RHeader />
             <Breadcrumbs pageName="vocals" />

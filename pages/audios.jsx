@@ -10,9 +10,20 @@ const audios = () => {
     return (
         <>
             <Head>
+                <meta property="og:url" content="https://www.ramenpaul.com/audios" />
+                <meta
+                    property="og:site_name"
+                    content="Audios | Ramen Paul"
+                />
+                <meta
+                    property="og:title"
+                    content="Audios | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Audios | Ramen Paul"
+                />
                 <title>Audios | Ramen Paul</title>
-                <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <RHeader />
             <Breadcrumbs pageName="audio" />

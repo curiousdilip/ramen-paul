@@ -75,6 +75,7 @@ header.scrolled .navbar .navbar-nav .nav-link {
 }
 
 .breadcrumbs .about {
+    position: relative;
     padding: 15% 0;
     background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/about-breadcrumb.jpg") no-repeat;
     background-size: cover;
@@ -140,6 +141,8 @@ header.scrolled .navbar .navbar-nav .nav-link {
 
 .breadcrumbs h3 {
     font-size: 80px;
+    position: relative;
+    z-index: 2;
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
@@ -326,12 +329,13 @@ footer .bottom-footer {
         font-size: 40px;
     }
 
+    /* 
     .breadcrumbs .about {
         padding: 20% 0;
         background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/about-breadcrumb.jpg") no-repeat;
         background-size: cover;
         background-attachment: auto;
-    }
+    } */
 
     .breadcrumbs .contact {
         padding: 20% 0;

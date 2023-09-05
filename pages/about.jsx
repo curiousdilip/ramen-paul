@@ -10,9 +10,20 @@ const about = () => {
     return (
         <>
             <Head>
+                <meta property="og:url" content="https://www.ramenpaul.com/about" />
+                <meta
+                    property="og:site_name"
+                    content="About | Ramen Paul"
+                />
+                <meta
+                    property="og:title"
+                    content="About | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="About | Ramen Paul"
+                />
                 <title>About | Ramen Paul</title>
-                <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <RHeader />
             <Breadcrumbs pageName="about" />

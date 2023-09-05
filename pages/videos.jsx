@@ -8,9 +8,20 @@ const videos = () => {
     return (
         <>
             <Head>
-                <title>Vocals | Ramen Paul</title>
-                <meta name="description" content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London." />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta property="og:url" content="https://www.ramenpaul.com/videos" />
+                <meta
+                    property="og:site_name"
+                    content="Videos | Ramen Paul"
+                />
+                <meta
+                    property="og:title"
+                    content="Videos | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Videos | Ramen Paul"
+                />
+                <title>Videos | Ramen Paul</title>
             </Head>
             <RHeader />
             <Breadcrumbs pageName="videos" />

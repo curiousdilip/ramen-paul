@@ -19,12 +19,20 @@ const contact = () => {
     return (
         <>
             <Head>
-                <title>Contact | Ramen Paul</title>
+                <meta property="og:url" content="https://www.ramenpaul.com/contact" />
                 <meta
-                    name="description"
-                    content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London."
+                    property="og:site_name"
+                    content="Contact | Ramen Paul"
                 />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta
+                    property="og:title"
+                    content="Contact | Ramen Paul"
+                />
+                <meta
+                    name="twitter:title"
+                    content="Contact | Ramen Paul"
+                />
+                <title>Contact | Ramen Paul</title>
             </Head>
             <RHeader />
             <Breadcrumbs pageName="contact" />

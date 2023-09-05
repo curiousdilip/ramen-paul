@@ -11,11 +11,26 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ramen Paul | We are Nothing</title>
+        <meta property="og:url" content="https://www.ramenpaul.com/" />
+        <meta property="og:type" content="website" />
         <meta
-          name="description"
-          content="Hi, I’m Ramen Paul, Authorized teacher of Trinity College, London."
+          property="og:site_name"
+          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
         />
+        <meta
+          property="og:title"
+          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
+        />
+
+        <meta
+          name="twitter:title"
+          content="Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer"
+        />
+
+
+
+
+        <title>Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Header />
