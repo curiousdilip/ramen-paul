@@ -4,6 +4,7 @@ import Head from "next/head"
 import React from 'react'
 import Footer from "@/components/Footer"
 import { guitarVideos } from "@/data/guitar"
+import VideoBox from "@/components/VideoBox"
 const guitar = () => {
     return (
         <>
@@ -30,10 +31,9 @@ const guitar = () => {
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
+
                                 {guitarVideos.map((item, index) => (
-                                    <div className="video-box" key={index} data-aos="fade-up">
-                                        <iframe width="100%" height="650" src={item.srcLink} title={item.title} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen loading="lazy"></iframe>
-                                    </div>
+                                    <VideoBox embedID={item.id} key={index} />
                                 ))}
                             </div>
                         </div>

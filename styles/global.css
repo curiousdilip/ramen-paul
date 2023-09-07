@@ -287,9 +287,64 @@ footer .bottom-footer {
 
 }
 
+
+
 /* VideoBox */
-.video-box {
+/* .video-box {
     margin: 5% 0;
+} */
+
+.video {
+    /* height: 556px;
+    position: relative;
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center; */
+    width: 100%;
+    height: 550px;
+
+}
+
+.video .banner {
+    position: relative;
+}
+
+.video .banner .thumbnail {
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.video .banner .play {
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+
+.video iframe {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.embedbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 556px;
+    width: 100%;
+    margin: 50px 0;
 }
 
 @media (max-width:786px) {

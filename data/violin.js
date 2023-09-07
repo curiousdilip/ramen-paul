@@ -1,7 +1,7 @@
 export const violinVideos = [
     {
-        srcLink: "https://www.youtube.com/embed/ZKAt7HzIpmo",
+        id: "ZKAt7HzIpmo",
     }, {
-        srcLink: "https://www.youtube.com/embed/xwTshp0Qie8",
+        id: "xwTshp0Qie8",
     }
 ]

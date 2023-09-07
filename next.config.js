@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ['img.youtube.com'],
+  },
   reactStrictMode: true,
   async headers() {
     return [

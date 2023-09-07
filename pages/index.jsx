@@ -6,6 +6,7 @@ import Image from "next/image";
 
 import Footer from "@/components/Footer";
 import { gallery } from "@/data/home";
+import VideoBox from "@/components/VideoBox";
 
 export default function Home() {
   return (
@@ -122,15 +123,7 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <iframe
-                  width="100%"
-                  src="https://www.youtube.com/embed/ZKAt7HzIpmo"
-                  title="learn violin initial part -1"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                  loading="lazy"
-                ></iframe>
+                <VideoBox embedID={"ZKAt7HzIpmo"} />
               </div>
             </div>
           </div>

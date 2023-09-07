@@ -1,20 +1,20 @@
 export const drumsVideos = [
     {
-        srcLink: "https://www.youtube.com/embed/TU_ouvAZ2KM",
+        id: "TU_ouvAZ2KM",
     }, {
-        srcLink: "https://www.youtube.com/embed/e7nK8qXSlfk",
+        id: "e7nK8qXSlfk",
     }
     , {
-        srcLink: "https://www.youtube.com/embed/lkbGsg9vWNY",
+        id: "lkbGsg9vWNY",
     }
     , {
-        srcLink: "https://www.youtube.com/embed/EjWPsdXyX94",
+        id: "EjWPsdXyX94",
     }
     , {
-        srcLink: "https://www.youtube.com/embed/88Pu0iLXFA8",
+        id: "88Pu0iLXFA8",
     }
     , {
-        srcLink: "https://www.youtube.com/embed/97VQMvP2J-A",
+        id: "97VQMvP2J-A",
     }
 
 ]
