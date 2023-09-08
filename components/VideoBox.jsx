@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Image from "next/image";
 const VideoBox = ({ embedID }) => {
     const [imageClicked, setImageClicked] = useState(false);
 
@@ -13,19 +13,24 @@ const VideoBox = ({ embedID }) => {
                 {!imageClicked ? (
                     <>
                         <div className="banner">
-                            <img
+                            <Image
                                 src={`https://img.youtube.com/vi/${embedID}/maxresdefault.jpg`}
+                                width={550}
+                                height={600}
                                 alt="yt thumbnail"
-                                onClick={onThumbnailClick}
-                                className="thumbnail"
+                                className="thumbnail img-fluid"
                             />
-                            <img
+
+                            <Image
                                 id="play-button"
-                                className="play"
                                 src="/youtube.png"
+                                width={50}
+                                height={50}
                                 alt="play button"
+                                className="play"
                                 onClick={onThumbnailClick}
                             />
+
                         </div>
 
 
