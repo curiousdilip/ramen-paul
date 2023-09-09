@@ -6,30 +6,33 @@ export const Videos = [
     }
 
     , {
-        id: "https://youtu.be/25qTZApb_AM",
+        id: "25qTZApb_AM",
     }
-    , {
-        id: "https://youtu.be/1H9BfRtiSoM",
+    // , {
+    //     id: "1H9BfRtiSoM",
+    // }
+
+    ,
+    {
+        id: "h8fRR_oOo_w",
     }, {
-        id: "https://youtu.be/h8fRR_oOo_w",
+        id: "uirA2k_Mgzg",
     }, {
-        id: "https://youtu.be/uirA2k_Mgzg",
+        id: "lmC1aL42S6E",
     }, {
-        id: "https://youtu.be/lmC1aL42S6E",
+        id: "oOUVS0MLlm0",
     }, {
-        id: "https://youtu.be/oOUVS0MLlm0",
+        id: "TiFT_8oR40o",
     }, {
-        id: "https://youtu.be/TiFT_8oR40o",
+        id: "NOu2e0veZnM",
     }, {
-        id: "VY8Pp9ZyGiI",
+        id: "Rj3ULA6BA58",
     }, {
-        id: "VY8Pp9ZyGiI",
+        id: "3Qv9P95fYL4",
     }, {
-        id: "VY8Pp9ZyGiI",
+        id: "9t1ASSBZ7Ec",
     }, {
-        id: "VY8Pp9ZyGiI",
-    }, {
-        id: "VY8Pp9ZyGiI",
+        id: "a9-mtXJmDn4",
     }
 
 
