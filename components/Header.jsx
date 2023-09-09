@@ -78,7 +78,7 @@ const Header = () => {
             {showBackToTop && (
 
                 <div className="backToTopButton" onClick={handleBackToTopClick}>
-                    <i class="bi bi-arrow-up-circle "></i>
+                    <i className="bi bi-arrow-up-circle "></i>
                 </div>
 
             )}
