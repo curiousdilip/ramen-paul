@@ -4,9 +4,6 @@ export const guitarVideos = [
     }, {
         id: "1F12UA0YOOc",
     }
-
-
-
     , {
         id: "Dgs-TvoGMuE",
     }, {
