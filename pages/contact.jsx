@@ -47,18 +47,21 @@ const contact = () => {
                                         name="name"
                                         className="form-control mb-3"
                                         placeholder="Name"
+                                        required
                                     />
                                     <input
                                         type="email"
                                         name="email"
                                         className="form-control mb-3"
                                         placeholder="Email"
+                                        required
                                     />
                                     <input
                                         type="tel"
                                         name="phone"
                                         className="form-control mb-3"
                                         placeholder="Phone number"
+                                        required
                                     />
                                     <textarea
                                         name="message"
