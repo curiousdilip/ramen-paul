@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import Head from "next/head";
+import Script from "next/script";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
@@ -24,11 +25,11 @@ export default function App({ Component, pageProps }) {
         <meta name="keywords" content="ramenpaul, ramensir, ramen mcs, ramen western music, musicteacher" />
         <meta
           property="og:image"
-          content={`https://ramen-paul.vercel.app/about-breadcrumb.jpg`}
+          content={`https://www.ramenpaul.com/about-breadcrumb.jpg`}
         />
         <meta
           name="twitter:image"
-          content={`https://ramen-paul.vercel.app/about-breadcrumb.jpg`}
+          content={`https://www.ramenpaul.com/about-breadcrumb.jpg`}
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -45,8 +46,18 @@ export default function App({ Component, pageProps }) {
           name="twitter:description"
           content="Ramen Paul is a Authorized Trinity College, London Teacher | Certified in England, France, and the U.S."
         />
+        <Script dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-5N2JTQEZZ4');`
+        }}>
+        </Script>
 
-        <script
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5N2JTQEZZ4"></Script>
+
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -54,7 +65,7 @@ export default function App({ Component, pageProps }) {
               "@type": "Organization",
               "url": "https://www.ramenpaul.com/",
               "name": "Ramen Paul | Western Music Teacher, Cellist and a Sound Engineer",
-              "logo": "https://ramen-paul.vercel.app/about-breadcrumb.jpg",
+              "logo": "https://www.ramenpaul.com/about-breadcrumb.jpg",
               "description": "Ramen Paul is a Authorized Trinity College, London Teacher | Certified in England, France, and the U.S.",
               "contactPoint": {
                 "@type": "ContactPoint",

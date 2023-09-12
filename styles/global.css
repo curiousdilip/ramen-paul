@@ -329,6 +329,18 @@ footer .bottom-footer {
 }
 
 
+#hero-carousel .carousel-inner .carousel-item {
+    width: 100vw;
+    /* background: rgba(0, 0, 0, 0.9); */
+    background-color: #000;
+    overflow: hidden;
+}
+
+#hero-carousel .carousel-inner .carousel-item img {
+    object-fit: cover;
+    opacity: 0.5;
+}
+
 @media (max-width:786px) {
     .video {
         height: 220px;
