@@ -306,7 +306,7 @@ footer .bottom-footer {
 footer .bottom-footer a {
     text-decoration: none;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     width: 100%;
     color: #fff;
     font-size: 14px;
