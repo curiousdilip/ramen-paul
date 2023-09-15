@@ -129,8 +129,8 @@ export default function Home() {
                 <h2 data-aos="fade-up">Tutorials</h2>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-3 text-center">
+            <div className="row mb-4">
+              <div className="col-md-4 text-center">
                 <a href="/violin" className="violin" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
@@ -139,7 +139,7 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <div className="col-md-3 text-center">
+              <div className="col-md-4 text-center">
                 <a href="/guitar" className="guitar" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
@@ -148,7 +148,7 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <div className="col-md-3 text-center">
+              <div className="col-md-4 text-center">
                 <a href="/vocals" className="vocals" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
@@ -157,7 +157,27 @@ export default function Home() {
                   </div>
                 </a>
               </div>
-              <div className="col-md-3 text-center">
+            </div>
+            <div className="row">
+              <div className="col-md-4 text-center">
+                <a href="/drums" className="drums" data-aos="fade-up">
+                  <div className="class-box">
+                    <i className="bi bi-music-note-beamed"></i>
+                    <h3>Drums</h3>
+                    <p>Free Drums Tutorials for Beginners</p>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-4 text-center">
+                <a href="/drums" className="drums" data-aos="fade-up">
+                  <div className="class-box">
+                    <i className="bi bi-music-note-beamed"></i>
+                    <h3>Drums</h3>
+                    <p>Free Drums Tutorials for Beginners</p>
+                  </div>
+                </a>
+              </div>
+              <div className="col-md-4 text-center">
                 <a href="/drums" className="drums" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
@@ -167,6 +187,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
+
           </div>
         </section>
         <section id="contact">

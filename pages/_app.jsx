@@ -7,6 +7,7 @@ import '../styles/contact.css'
 import '../styles/photos.css'
 import '../styles/audios.css'
 import "aos/dist/aos.css";
+import GoogleAnalytics from '../components/GoogleAnalytics';
 import AOS from "aos";
 import { useEffect } from "react";
 import Head from "next/head";
@@ -50,16 +51,24 @@ export default function App({ Component, pageProps }) {
           name="twitter:description"
           content="Ramen Paul is a Authorized Trinity College, London Teacher | Certified in England, France, and the U.S."
         />
-        <Script dangerouslySetInnerHTML={{
+        {/* <Script dangerouslySetInnerHTML={{
           __html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
           gtag('config', 'G-5N2JTQEZZ4');`
         }}>
+        </Script> */}
+        {/* <Script strategy="afterInteractive">
+          {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5N2JTQEZZ4');
+    `}
         </Script>
-
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5N2JTQEZZ4"></Script>
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5N2JTQEZZ4"></Script> */}
+        <GoogleAnalytics />
 
         <Script
           type="application/ld+json"
@@ -87,6 +96,7 @@ export default function App({ Component, pageProps }) {
           }}
         />
       </Head>
+
       <Component {...pageProps} />
     </>)
 

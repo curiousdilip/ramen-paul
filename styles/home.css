@@ -107,7 +107,8 @@
 
 #tutorials .class-box {
     padding: 30px 10px;
-    border: 1px solid red;
+    margin: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 

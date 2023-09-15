@@ -8,8 +8,6 @@ const Footer = () => {
                     <div className="row align-items-start justify-content-center">
                         <div className="col-md-5">
                             <h1>Ramen Paul</h1>
-                            {/* <p>
-                                He is Western music teacher and multi-instrumentalist who's also a skilled sound engineer, passionate about teaching and crafting great music.</p> */}
                             <p>Western music Teacher (multi instrumentalist) <br />
                                 Sound engineering,<br />
                                 Arrangements,composition,Recording,<br />
@@ -25,7 +23,7 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/ramen-paul-6a612180/" aria-label="Linkedin" target="_blank" rel="noopener">
+                                        <a href="https://www.linkedin.com/in/ramen-paul/" aria-label="Linkedin" target="_blank" rel="noopener">
                                             <i className="bi bi-linkedin"></i>
                                         </a>
                                     </li>
@@ -49,10 +47,12 @@ const Footer = () => {
                             <div className="links">
                                 <h3>Tutorials</h3>
                                 <ul>
-                                    <li><a href="/drums">Drums</a></li>
-                                    <li><a href="/violin">Violin</a></li>
-                                    <li><a href="/guitar">Guitar</a></li>
                                     <li><a href="/vocals">Vocals</a></li>
+                                    <li><a href="/violin">Violin</a></li>
+                                    <li><a href="/">Piano</a></li>
+                                    <li><a href="/">Cello</a></li>
+                                    <li><a href="/guitar">Guitar</a></li>
+                                    <li><a href="/drums">Drums</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -72,7 +72,9 @@ const Footer = () => {
                             <div className="col-md-6">
                                 © 2023 Ramen Paul | All Rights Reserved
                             </div>
-                            <div className="col-md-6"></div>
+                            <div className="col-md-6 ">
+                                {/* <a href="">Made by Dilip Kumar</a> */}
+                            </div>
                         </div>
                     </div>
                 </div>
