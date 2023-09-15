@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Footer = () => {
     return (
         <>
@@ -18,28 +18,28 @@ const Footer = () => {
                                 <h6>Follow me on </h6>
                                 <ul>
                                     <li>
-                                        <a href="https://www.instagram.com/ramen_paul" aria-label="Instagram" target="_blank" rel="noopener">
+                                        <Link href="https://www.instagram.com/ramen_paul" aria-label="Instagram" target="_blank" rel="noopener">
                                             <i className="bi bi-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="https://www.linkedin.com/in/ramen-paul/" aria-label="Linkedin" target="_blank" rel="noopener">
+                                        <Link href="https://www.linkedin.com/in/ramen-paul/" aria-label="Linkedin" target="_blank" rel="noopener">
                                             <i className="bi bi-linkedin"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/user/ramensir" aria-label="Youtube" target="_blank" rel="noopener">
+                                        <Link href="https://www.youtube.com/user/ramensir" aria-label="Youtube" target="_blank" rel="noopener">
                                             <i className="bi bi-youtube"></i>
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/ramen.paul.9" aria-label="Facebook" target="_blank" rel="noopener">
+                                        <Link href="https://www.facebook.com/ramen.paul.9" aria-label="Facebook" target="_blank" rel="noopener">
                                             <i className="bi bi-facebook"></i>
-                                        </a>
+                                        </Link>
                                     </li>
-                                    <li><a href="https://twitter.com/ramen_paul" aria-label="Twitter" target="_blank" rel="noopener">
+                                    <li><Link href="https://twitter.com/ramen_paul" aria-label="Twitter" target="_blank" rel="noopener">
                                         <i className="bi bi-twitter"></i>
-                                    </a></li>
+                                    </Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,12 +47,12 @@ const Footer = () => {
                             <div className="links">
                                 <h3>Tutorials</h3>
                                 <ul>
-                                    <li><a href="/vocals">Vocals</a></li>
-                                    <li><a href="/violin">Violin</a></li>
-                                    <li><a href="/piano">Piano</a></li>
-                                    <li><a href="/cello">Cello</a></li>
-                                    <li><a href="/guitar">Guitar</a></li>
-                                    <li><a href="/drums">Drums</a></li>
+                                    <li><Link href="/vocals">Vocals</Link></li>
+                                    <li><Link href="/violin">Violin</Link></li>
+                                    <li><Link href="/piano">Piano</Link></li>
+                                    <li><Link href="/cello">Cello</Link></li>
+                                    <li><Link href="/guitar">Guitar</Link></li>
+                                    <li><Link href="/drums">Drums</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                                 © 2023 Ramen Paul | All Rights Reserved
                             </div>
                             <div className="col-md-6 ">
-                                {/* <a href="">Made by Dilip Kumar</a> */}
+                                <Link href="https://www.dilipmaurya.in">Made by Dilip Kumar</Link>
                             </div>
                         </div>
                     </div>

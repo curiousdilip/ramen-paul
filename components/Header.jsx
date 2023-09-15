@@ -1,8 +1,8 @@
 "use client"
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import classnames from 'classnames';
 import { useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 
 const Header = () => {
@@ -44,39 +44,58 @@ const Header = () => {
         'scrolled': scrolled,
     })
 
+    useEffect(() => {
+        require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    }, []);
+
     return (
         <header className={scroll}>
-            <Navbar className="navbar fixed-top" expand="lg">
-                <Container>
-                    <Navbar.Brand href="/">
-                        <h2>Ramen Paul</h2>
-                    </Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" >   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                    </svg></Navbar.Toggle>
 
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto">
-                            <Nav.Link href="/about" className={activePath === '/about' ? 'active' : ''}>About</Nav.Link>
+            <nav class="navbar navbar-expand-lg fixed-top ">
+                <div class="container">
+                    <Link class="navbar-brand" href="/"> <h2>Ramen Paul</h2></Link>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
+                            <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </button>
+                    <div class="collapse navbar-collapse" id="hamburger">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
-                            <NavDropdown title="Gallery" id="gallery">
-                                <NavDropdown.Item href="/videos">Videos</NavDropdown.Item>
-                                <NavDropdown.Item href="/photos">Photos</NavDropdown.Item>
-                                <NavDropdown.Item href="/audios">Audios</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown title="Tutorials" id="tutorial">
-                                <NavDropdown.Item href="/vocals">Vocals</NavDropdown.Item>
-                                <NavDropdown.Item href="/violin">Violin</NavDropdown.Item>
-                                <NavDropdown.Item href="/piano">Piano</NavDropdown.Item>
-                                <NavDropdown.Item href="/cello">Cello</NavDropdown.Item>
-                                <NavDropdown.Item href="/guitar">Guitar</NavDropdown.Item>
-                                <NavDropdown.Item href="/drums">Drums</NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Link href="/contact" className={activePath === '/contact' ? 'active' : ''}>Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
+                            <li class="nav-item">
+                                <Link class="nav-link" href="/about">About</Link>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Gallery
+                                </Link>
+                                <ul class="dropdown-menu">
+                                    <li><Link class="dropdown-item" href="/videos">Videos</Link></li>
+                                    <li><Link class="dropdown-item" href="/photos">Photos</Link></li>
+                                    <li><Link class="dropdown-item" href="/audios">Audios</Link></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Tutorial
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><Link class="dropdown-item" href="/vocals">Vocals</Link></li>
+                                    <li><Link class="dropdown-item" href="/violin">Violin</Link></li>
+                                    <li><Link class="dropdown-item" href="/piano">Piano</Link></li>
+                                    <li><Link class="dropdown-item" href="/cello">Cello</Link></li>
+                                    <li><Link class="dropdown-item" href="/guitar">Guitar</Link></li>
+                                    <li><Link class="dropdown-item" href="/drums">Drums</Link></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" href="/contact">Contact</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
             {showBackToTop && (
 
                 <div className="backToTopButton" onClick={handleBackToTopClick}>
