@@ -116,7 +116,7 @@ const contact = () => {
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="https://www.linkedin.com/in/ramen-paul-6a612180/">
+                                                <a href="https://www.linkedin.com/in/ramen-paul">
                                                     <i className="bi bi-linkedin"></i>
                                                 </a>
                                             </li>
