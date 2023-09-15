@@ -5,6 +5,7 @@ import Image from "next/image";
 import Footer from "@/components/Footer";
 import { gallery } from "@/data/home";
 import VideoBox from "@/components/VideoBox";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -131,60 +132,61 @@ export default function Home() {
             </div>
             <div className="row mb-4">
               <div className="col-md-4 text-center">
-                <a href="/violin" className="violin" data-aos="fade-up">
-                  <div className="class-box">
-                    <i className="bi bi-music-note-beamed"></i>
-                    <h3>Violin</h3>
-                    <p>Free Violin Tutorials for Beginners</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center">
-                <a href="/guitar" className="guitar" data-aos="fade-up">
-                  <div className="class-box">
-                    <i className="bi bi-music-note-beamed"></i>
-                    <h3>Guitar</h3>
-                    <p>Free Guitar Tutorials for Beginners</p>
-                  </div>
-                </a>
-              </div>
-              <div className="col-md-4 text-center">
-                <a href="/vocals" className="vocals" data-aos="fade-up">
+                <Link href="/vocals" className="vocals" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Vocals</h3>
                     <p>Free Vocals Tutorials for Beginners</p>
                   </div>
-                </a>
+                </Link>
               </div>
+              <div className="col-md-4 text-center">
+                <Link href="/violin" className="violin" data-aos="fade-up">
+                  <div className="class-box">
+                    <i className="bi bi-music-note-beamed"></i>
+                    <h3>Violin</h3>
+                    <p>Free Violin Tutorials for Beginners</p>
+                  </div>
+                </Link>
+              </div>
+              <div className="col-md-4 text-center">
+                <Link href="/piano" className="guitar" data-aos="fade-up">
+                  <div className="class-box">
+                    <i className="bi bi-music-note-beamed"></i>
+                    <h3>Piano</h3>
+                    <p>Free Piano Tutorials for Beginners</p>
+                  </div>
+                </Link>
+              </div>
+
             </div>
             <div className="row">
               <div className="col-md-4 text-center">
-                <a href="/drums" className="drums" data-aos="fade-up">
+                <Link href="/cello" className="drums" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
-                    <h3>Drums</h3>
-                    <p>Free Drums Tutorials for Beginners</p>
+                    <h3>Cello</h3>
+                    <p>Free Cello Tutorials for Beginners</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-md-4 text-center">
-                <a href="/drums" className="drums" data-aos="fade-up">
+                <Link href="/guitar" className="drums" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
-                    <h3>Drums</h3>
-                    <p>Free Drums Tutorials for Beginners</p>
+                    <h3>Guitar</h3>
+                    <p>Free Guitar Tutorials for Beginners</p>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-md-4 text-center">
-                <a href="/drums" className="drums" data-aos="fade-up">
+                <Link href="/drums" className="drums" data-aos="fade-up">
                   <div className="class-box">
                     <i className="bi bi-music-note-beamed"></i>
                     <h3>Drums</h3>
                     <p>Free Drums Tutorials for Beginners</p>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
 

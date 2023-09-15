@@ -367,6 +367,11 @@ footer .bottom-footer a {
 }
 
 @media (max-width:786px) {
+
+    .breadcrumbs>div {
+        background-attachment: scroll !important;
+    }
+
     .video {
         height: 220px;
 

@@ -12,3 +12,9 @@
     grid-template-columns: auto auto auto;
     gap: 20px;
 }
+
+@media (max-width:768px) {
+    #grid-images .images {
+        grid-template-columns: auto;
+    }
+}
