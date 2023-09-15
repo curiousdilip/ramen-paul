@@ -148,6 +148,22 @@ header.scrolled .navbar .navbar-nav .nav-link {
     background-position: center top;
 }
 
+.breadcrumbs .piano {
+    padding: 15% 0;
+    background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/contact-breadcrumb.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.breadcrumbs .cello {
+    padding: 15% 0;
+    background: linear-gradient(180deg, rgba(1, 47, 90, 0.50), rgba(1, 47, 90, 0.50)), url("/contact-breadcrumb.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
 .breadcrumbs h3 {
     font-size: 80px;
     position: relative;

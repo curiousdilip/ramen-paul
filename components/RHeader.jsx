@@ -67,9 +67,12 @@ const RHeader = () => {
                                 </NavDropdown>
                                 <NavDropdown title="Tutorials" id="tutorial">
                                     <NavDropdown.Item href="/vocals">Vocals</NavDropdown.Item>
-                                    <NavDropdown.Item href="/drums">Drums</NavDropdown.Item>
-                                    <NavDropdown.Item href="/guitar">Guitar</NavDropdown.Item>
                                     <NavDropdown.Item href="/violin">Violin</NavDropdown.Item>
+                                    <NavDropdown.Item href="/piano">Piano</NavDropdown.Item>
+                                    <NavDropdown.Item href="/cello">Cello</NavDropdown.Item>
+                                    <NavDropdown.Item href="/guitar">Guitar</NavDropdown.Item>
+                                    <NavDropdown.Item href="/drums">Drums</NavDropdown.Item>
+
                                 </NavDropdown>
                                 <Nav.Link href="/contact" className={activePath === '/contact' ? 'active' : ''}>Contact</Nav.Link>
                             </Nav>

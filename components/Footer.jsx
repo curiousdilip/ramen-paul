@@ -49,8 +49,8 @@ const Footer = () => {
                                 <ul>
                                     <li><a href="/vocals">Vocals</a></li>
                                     <li><a href="/violin">Violin</a></li>
-                                    <li><a href="/">Piano</a></li>
-                                    <li><a href="/">Cello</a></li>
+                                    <li><a href="/piano">Piano</a></li>
+                                    <li><a href="/cello">Cello</a></li>
                                     <li><a href="/guitar">Guitar</a></li>
                                     <li><a href="/drums">Drums</a></li>
                                 </ul>

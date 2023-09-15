@@ -1,37 +1,38 @@
-import Breadcrumbs from "@/components/Breadcrumbs"
-import RHeader from "@/components/RHeader"
-import Head from "next/head"
+import Breadcrumbs from '@/components/Breadcrumbs'
+import Footer from '@/components/Footer'
+import RHeader from '@/components/RHeader'
 import React from 'react'
-import Footer from "@/components/Footer"
-import { violinVideos } from "@/data/violin"
+import Head from 'next/head'
+import { celloVideos } from "@/data/cello"
 import VideoBox from "@/components/VideoBox"
-const violin = () => {
+const cello = () => {
     return (
         <>
+
             <Head>
-                <meta property="og:url" content="https://www.ramenpaul.com/violin" />
+                <meta property="og:url" content="https://www.ramenpaul.com/cello" />
                 <meta
                     property="og:site_name"
-                    content="Violin | Ramen Paul"
+                    content="Cello | Ramen Paul"
                 />
                 <meta
                     property="og:title"
-                    content="Violin | Ramen Paul"
+                    content="Cello | Ramen Paul"
                 />
                 <meta
                     name="twitter:title"
-                    content="Violin | Ramen Paul"
+                    content="Cello | Ramen Paul"
                 />
-                <title>Violin | Ramen Paul</title>
+                <title>Cello | Ramen Paul</title>
             </Head>
             <RHeader />
-            <Breadcrumbs pageName="violin" />
+            <Breadcrumbs pageName="cello" />
             <main>
-                <section id="violin-tutorials">
+                <section id="cello-tutorials">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                                {violinVideos.map((item, index) => (
+                                {celloVideos.map((item, index) => (
                                     <VideoBox embedID={item.id} key={index} />
                                 ))}
                             </div>
@@ -44,5 +45,4 @@ const violin = () => {
     )
 }
 
-export default violin;
-
+export default cello
