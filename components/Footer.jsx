@@ -8,8 +8,14 @@ const Footer = () => {
                     <div className="row align-items-start justify-content-center">
                         <div className="col-md-5">
                             <h1>Ramen Paul</h1>
-                            <p>
-                                He is Western music teacher and multi-instrumentalist who's also a skilled sound engineer, passionate about teaching and crafting great music.</p>
+                            {/* <p>
+                                He is Western music teacher and multi-instrumentalist who's also a skilled sound engineer, passionate about teaching and crafting great music.</p> */}
+                            <p>Western music Teacher (multi instrumentalist) <br />
+                                Sound engineering,<br />
+                                Arrangements,composition,Recording,<br />
+                                Digital mixing<br />
+                                Sound production<br />
+                                All sound solutions</p>
                             <div className="follow">
                                 <h6>Follow me on </h6>
                                 <ul>

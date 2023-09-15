@@ -13,7 +13,11 @@ import Head from "next/head";
 import Script from "next/script";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
   }, []);
   return (
 
