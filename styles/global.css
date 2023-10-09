@@ -466,4 +466,13 @@ footer .bottom-footer a {
     .breadcrumbs .audio {
         padding: 20% 0;
     }
+
+    footer .bottom-footer a {
+        text-align: center;
+        display: inline-block;
+    }
+
+    footer .bottom-footer .col-md-6:nth-child(1) {
+        text-align: center;
+    }
 }
