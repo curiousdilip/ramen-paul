@@ -24,8 +24,8 @@ const VideoBox = ({ embedID }) => {
                             <Image
                                 id="play-button"
                                 src="/youtube.png"
-                                width={50}
-                                height={50}
+                                width={68}
+                                height={48}
                                 alt="play button"
                                 className="play"
                                 onClick={onThumbnailClick}
