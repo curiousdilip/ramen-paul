@@ -7,15 +7,6 @@ import { useRouter } from 'next/router';
 
 
 const contact = () => {
-    // function handleSubmit(event) {
-    //     event.preventDefault();
-    //     // Submit your form data here (e.g., via fetch or another method)
-
-    //     // Add a brief delay to ensure the form data is sent before reloading
-    //     setTimeout(() => {
-    //         window.location.reload();
-    //     }, 4000); // 1000 milliseconds (1 second)
-    // }
     return (
         <>
             <Head>
