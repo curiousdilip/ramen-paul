@@ -24,6 +24,7 @@ export default function Home() {
           name="twitter:title"
           content="Ramen Paul | Cellist and a Sound Engineer"
         />
+        <link rel="icon" href="/favicon.png" sizes="192x192"></link>
         <title>Ramen Paul | Cellist and a Sound Engineer</title>
       </Head>
       <Header />
@@ -63,7 +64,8 @@ export default function Home() {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-4">
-                <Image data-aos="fade-right"
+                <Image
+                  data-aos="fade-right"
                   src="/about-img.jpg"
                   width={300}
                   height={500}
@@ -71,15 +73,33 @@ export default function Home() {
                 />
               </div>
               <div className="col-md-8">
-                <h2 data-aos="fade-left" className="mb-3">About Me</h2>
+                <h2 data-aos="fade-left" className="mb-3">
+                  About Me
+                </h2>
 
-                <p data-aos="fade-left" className="mb-2">Born in Kolkata and started learning music at the age of five. Went to a British boarding school and started learning violin and cello from a British teacher.</p>
+                <p data-aos="fade-left" className="mb-2">
+                  Born in Kolkata and started learning music at the age of five.
+                  Went to a British boarding school and started learning violin
+                  and cello from a British teacher.
+                </p>
 
-                <p data-aos="fade-left" className="mb-2">   Went to England To study cello and then France to study orchestral music and finally went to United States to study sound Engineering, sound production,voice training,Composition And conducting.</p>
+                <p data-aos="fade-left" className="mb-2">
+                  {" "}
+                  Went to England To study cello and then France to study
+                  orchestral music and finally went to United States to study
+                  sound Engineering, sound production,voice training,Composition
+                  And conducting.
+                </p>
                 <p data-aos="fade-left">
-                  Come back to India and started working in mumbai studios For the bollywood industry But with a year Moved to Delhi And started
-                  His own school called ramen School of music,a place For pure western music only....
-                  Ramen Paul is an authorised teacher after Trinity College Of music London as well as rock school, trinity rock and pop, Royal school of music etc ...Helping, teaching and preparing thousands of students with All sorts of international examinations.</p>
+                  Come back to India and started working in mumbai studios For
+                  the bollywood industry But with a year Moved to Delhi And
+                  started His own school called ramen School of music,a place
+                  For pure western music only.... Ramen Paul is an authorised
+                  teacher after Trinity College Of music London as well as rock
+                  school, trinity rock and pop, Royal school of music etc
+                  ...Helping, teaching and preparing thousands of students with
+                  All sorts of international examinations.
+                </p>
               </div>
             </div>
           </div>
@@ -89,19 +109,15 @@ export default function Home() {
             <div className="row">
               <div className="col-md-12 text-center">
                 <h2 data-aos="fade-up">Gallery</h2>
-
               </div>
             </div>
             <div className="row">
               <div className="col-md-12">
                 <div className="gallery">
-
                   {gallery.map((item, index) => (
                     <div className="box" key={index} data-aos="fade-up">
                       <Image
-                        src={
-                          item.src
-                        }
+                        src={item.src}
                         width={350}
                         height={250}
                         alt={item.alt}
@@ -158,7 +174,6 @@ export default function Home() {
                   </div>
                 </Link>
               </div>
-
             </div>
             <div className="row">
               <div className="col-md-4 text-center">
@@ -189,7 +204,6 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-
           </div>
         </section>
         <section id="contact">
@@ -221,7 +235,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-      </main >
+      </main>
       <Footer />
     </>
   );
