@@ -24,7 +24,7 @@ export default function Home() {
           name="twitter:title"
           content="Ramen Paul | Cellist and a Sound Engineer"
         />
-        <link rel="icon" href="/favicon.png" sizes="192x192"></link>
+
         <title>Ramen Paul | Cellist and a Sound Engineer</title>
       </Head>
       <Header />

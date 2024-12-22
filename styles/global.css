@@ -312,17 +312,45 @@ footer .bottom-footer a {
     font-size: 14px;
 }
 
+#videos .col-md-12,
+#violin-tutorials .col-md-12,
+#vocals-tutorials .col-md-12,
+#piano-tutorials .col-md-12,
+#cello-tutorials .col-md-12,
+#guitar-tutorials .col-md-12,
+#drums-tutorials .col-md-12 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px 0;
+}
 
+@media (max-width:768px) {
 
-/* VideoBox */
-/* .video-box {
-    margin: 5% 0;
-} */
+    #videos .col-md-12,
+    #violin-tutorials .col-md-12,
+    #vocals-tutorials .col-md-12,
+    #piano-tutorials .col-md-12,
+    #cello-tutorials .col-md-12,
+    #guitar-tutorials .col-md-12,
+    #drums-tutorials .col-md-12 {
 
-.video {
+        grid-template-columns: auto;
+        gap: 20px;
+
+        padding: 20px;
+    }
+}
+
+#videos .col-md-12 video,
+#violin-tutorials .col-md-12 video,
+#vocals-tutorials .col-md-12 video,
+#piano-tutorials .col-md-12 video,
+#cello-tutorials .col-md-12 video,
+#guitar-tutorials .col-md-12 video,
+#drums-tutorials .col-md-12 video .video {
     width: 100%;
-    height: 655px;
-    margin: 40px 0;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -333,7 +361,8 @@ footer .bottom-footer a {
 
 .video .banner .thumbnail {
     width: 100%;
-    height: 655px;
+    height: 300px;
+    object-fit: cover;
     text-align: center;
     cursor: pointer;
     border-radius: 10px;
