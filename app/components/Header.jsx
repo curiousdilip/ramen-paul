@@ -4,8 +4,8 @@ export default function Header() {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container">
-          <a className="navbar-brand" href="#">
-            Ramen Paul
+          <a className="navbar-brand d-flex align-items-center" href="#">
+            <img src="/img/favicon.png" alt="logo" /> <h2>Ramen Paul</h2>
           </a>
           <button
             className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"

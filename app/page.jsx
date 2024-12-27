@@ -1,6 +1,7 @@
 import Awards from "./components/Awards";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Testimonials from "./components/Testimonials";
 import "./home.css";
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* <Testimonials /> */}
       <Awards />
       <Footer />
     </>

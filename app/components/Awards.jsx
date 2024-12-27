@@ -15,7 +15,7 @@ export default function Awards() {
                   </div>
                 </div>
               </div>
-              <div className="box">
+              {/* <div className="box">
                 <div className="content">
                   <div className="img-box">🏆</div>
                   <div className="text">
@@ -23,8 +23,8 @@ export default function Awards() {
                     <p>by the MCS student council 2023</p>
                   </div>
                 </div>
-              </div>
-              <div className="box">
+              </div> */}
+              {/* <div className="box">
                 <div className="content">
                   <div className="img-box">🏆</div>
                   <div className="text">
@@ -32,8 +32,8 @@ export default function Awards() {
                     <p></p>
                   </div>
                 </div>
-              </div>
-              <div className="box">
+              </div> */}
+              {/* <div className="box">
                 <div className="content">
                   <div className="img-box">🏆</div>
                   <div className="text">
@@ -41,7 +41,7 @@ export default function Awards() {
                     <p></p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="box">
                 <div className="content">
                   <div className="img-box">🏆</div>
