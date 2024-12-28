@@ -1,0 +1,121 @@
+#bio {
+    padding: 164px 0;
+}
+
+#bio .education .ed-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 36px;
+}
+
+#bio .education .ed-heading .line {
+    width: 32px;
+    height: 2px;
+    background-color: #1777e5;
+    margin-right: 16px;
+}
+
+#bio .education .ed-heading h2 {
+    color: #1777e5;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#bio .education .box {
+    margin-bottom: 26px;
+}
+
+#bio .education .box .duration {
+    color: #1777e5;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#bio .education .box .organization {
+    color: #121314;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#bio .education .box .description {
+    color: #5e6971;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#bio .work .work-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 36px;
+}
+
+#bio .work .work-heading .line {
+    width: 32px;
+    height: 2px;
+    background-color: #ff5f49;
+    margin-right: 16px;
+}
+
+#bio .work .work-heading h2 {
+    color: #ff5f49;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+#bio .work .box {
+    margin-bottom: 26px;
+}
+
+#bio .work .box .duration {
+    color: #ff5f49;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#bio .work .box .degree {
+    color: #121314;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+#bio .work .box .description {
+    color: #5e6971;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#bio .instruments .ins-heading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 36px;
+}
+
+#bio .instruments .ins-heading .line {
+    width: 32px;
+    height: 2px;
+    background-color: #2db24a;
+    margin-right: 16px;
+}
+
+#bio .instruments .ins-heading h2 {
+    color: #2db24a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}

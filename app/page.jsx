@@ -1,6 +1,9 @@
 import Awards from "./components/Awards";
+import Bio from "./components/Bio";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Lesson from "./components/Lesson";
+import Taught from "./components/TAught";
 import Testimonials from "./components/Testimonials";
 import "./home.css";
 export default function Home() {
@@ -51,8 +54,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <Testimonials /> */}
+      <Bio />
+      <Taught />
+      <Testimonials />
       <Awards />
+      <Lesson />
+
       <Footer />
     </>
   );

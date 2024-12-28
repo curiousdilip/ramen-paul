@@ -7,12 +7,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { Pagination, Navigation, Autoplay } from "swiper/modules";
+import { Pagination, Navigation } from "swiper/modules";
 
 export default function Testimonials() {
-  const swiperRef = useRef(null);
-  const [swiperInstance, setSwiperInstance] = useState(null);
-
   return (
     <section id="testimonials">
       <div className="container">
@@ -31,10 +28,6 @@ export default function Testimonials() {
                 pagination={{ clickable: true }}
                 loop={true}
                 modules={[Navigation, Pagination]}
-                onSwiper={(swiper) => {
-                  swiperRef.current = swiper;
-                  setSwiperInstance(swiper); // Store the swiper instance in the state
-                }}
               >
                 <SwiperSlide>
                   <p className="review">

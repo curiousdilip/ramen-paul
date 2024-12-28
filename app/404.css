@@ -1,0 +1,42 @@
+#error {
+    height: 100vh;
+}
+
+#error .content {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+#error .content img {
+    margin-bottom: 40px;
+}
+
+#error .content h1 {
+    font-size: 48px;
+    line-height: 56px;
+    color: #121314;
+    font-weight: 600;
+}
+
+#error .content p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    color: #353a3e;
+}
+
+#error .content .home-btn {
+    background-color: #1777e5;
+    max-width: 160px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+#error .content .home-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 64px;
+    color: #fff;
+}
