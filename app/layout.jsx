@@ -1,7 +1,7 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import "./globals.css";
+import "./global.css";
 import AddBootstrap from "./components/AddBootstrap";
+import "bootstrap/dist/css/bootstrap.css";
+
 export const metadata = {
   title: "Ramen Paul | Cellist and a Sound Engineer",
   description:

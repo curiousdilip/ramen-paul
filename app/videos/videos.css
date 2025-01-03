@@ -1,0 +1,56 @@
+#videos .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 0;
+}
+
+#videos .heading h2 {
+    color: #121314;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+#videos .heading .tabs a {
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #7b848b;
+    text-decoration: none;
+}
+
+#videos .heading .tabs a.active {
+    color: #121314;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    background-color: #f5f6f7;
+}
+
+#videos .videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+#videos .videos .video img {
+    max-width: 648px;
+    height: 488px;
+}
+
+#videos .more-button {
+    margin-top: 64px;
+    margin-bottom: 164px;
+    text-align: center;
+}
+
+#videos .more-button a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #121314;
+    text-decoration: none;
+    padding: 20px 32px;
+    background-color: #f5f6f7;
+}
