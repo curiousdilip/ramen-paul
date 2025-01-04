@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import "./testimonials.css";
+import "./testimonials.scss";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import Lesson from "./components/Lesson";
 import Taught from "./components/TAught";
 import Testimonials from "./components/Testimonials";
-import "./home.css";
+import "./home.scss";
 export default function Home() {
   return (
     <>

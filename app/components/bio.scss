@@ -1,0 +1,124 @@
+#bio {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0;
+  }
+
+  padding: 164px 0;
+  .education {
+    .ed-heading {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 36px;
+      .line {
+        width: 32px;
+        height: 2px;
+        background-color: #1777e5;
+        margin-right: 16px;
+      }
+      h2 {
+        color: #1777e5;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+      }
+    }
+
+    .box {
+      margin-bottom: 26px;
+      .duration {
+        color: #1777e5;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .organization {
+        color: #121314;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+      }
+      .description {
+        color: #5e6971;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+  .work {
+    .work-heading {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 36px;
+      .line {
+        width: 32px;
+        height: 2px;
+        background-color: #ff5f49;
+        margin-right: 16px;
+      }
+      h2 {
+        color: #ff5f49;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+      }
+    }
+
+    .box {
+      margin-bottom: 26px;
+      .duration {
+        color: #ff5f49;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .degree {
+        color: #121314;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+      }
+      .description {
+        color: #5e6971;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .instruments {
+    .ins-heading {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      margin-bottom: 36px;
+      .line {
+        width: 32px;
+        height: 2px;
+        background-color: #2db24a;
+        margin-right: 16px;
+      }
+      h2 {
+        color: #2db24a;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

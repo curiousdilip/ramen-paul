@@ -1,0 +1,159 @@
+#lesson {
+  background: rgba(238, 174, 202, 0.5);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.2) 0%,
+    rgba(148, 187, 233, 0.1) 100%
+  );
+  padding: 164px 0;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  p {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #lesson {
+    padding: 40px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #lesson {
+    padding: 80px 0px;
+  }
+}
+
+#lesson .heading {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+@media (max-width: 992px) {
+  #lesson .heading {
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #lesson .heading {
+    margin: 0;
+  }
+}
+
+#lesson .heading h2 {
+  font-weight: 600;
+  color: #121314;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  #lesson .heading h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 992px) {
+  #lesson .heading h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+#lesson .heading h3 {
+  font-weight: 400;
+  max-width: 563px;
+  margin: 0 auto;
+  color: #5e6971;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  #lesson .heading h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  #lesson .heading h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+#lesson .lessons {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 768px) {
+  #lesson .lessons {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+@media (max-width: 992px) {
+  #lesson .lessons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#lesson .lessons .box {
+  text-align: center;
+  background-color: #fff;
+  padding: 32px 24px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  #lesson .lessons .box {
+    padding: 20px;
+  }
+}
+
+#lesson .lessons .box .icon-box {
+  box-shadow: 0 32px 32px -12px rgba(18, 19, 20, 0.05);
+  height: 88px;
+  width: 88px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+#lesson .lessons .box h4 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #121314;
+}
+
+@media (max-width: 768px) {
+  #lesson .lessons .box h4 {
+    margin: 12px 0;
+  }
+}
+
+#lesson .lessons .box p {
+  color: #7b848b;
+  font-size: 14px;
+  line-height: 22px;
+}

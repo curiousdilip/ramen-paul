@@ -1,4 +1,4 @@
-import "./taught.css";
+import "./taught.scss";
 export default function Taught() {
   return (
     <section id="taught">

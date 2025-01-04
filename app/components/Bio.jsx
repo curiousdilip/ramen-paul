@@ -1,4 +1,4 @@
-import "./bio.css";
+import "./bio.scss";
 export default function Bio() {
   return (
     <section id="bio">

@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Head from "next/head";
+import "./videos.scss";
 
 const Videos = () => {
   useEffect(() => {

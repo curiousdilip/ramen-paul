@@ -1,4 +1,4 @@
-import "./about.css";
+import "./about.scss";
 import Bio from "../components/Bio";
 import Header from "../components/Header";
 import About from "../components/About";

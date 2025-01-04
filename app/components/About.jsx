@@ -1,5 +1,5 @@
 "use client";
-import "./about.css";
+import "./about.scss";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

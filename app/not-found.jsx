@@ -1,4 +1,4 @@
-import "./404.css";
+import "./404.scss";
 export default function NotFound() {
   return (
     <section id="error">

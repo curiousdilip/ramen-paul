@@ -1,4 +1,4 @@
-import "./awards.css";
+import "./awards.scss";
 export default function Awards() {
   return (
     <section id="achievements">
