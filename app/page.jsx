@@ -9,7 +9,6 @@ import "./home.scss";
 export default function Home() {
   return (
     <>
-      <Header />
       <section id="hero">
         <div className="container">
           <div className="row align-items-center">
@@ -46,7 +45,7 @@ export default function Home() {
                     <a href="/contact">Say Hello</a>
                   </div>
                   <div className="btn2">
-                    <a href="/tutorials">View Tutorials</a>
+                    <a href="/videos">View Tutorials</a>
                   </div>
                 </div>
               </div>
@@ -59,8 +58,6 @@ export default function Home() {
       <Testimonials />
       <Awards />
       <Lesson />
-
-      <Footer />
     </>
   );
 }

@@ -9,12 +9,10 @@ import Lesson from "../components/Lesson";
 export default function AboutPage() {
   return (
     <>
-      <Header />
       <About />
       <Bio />
       <Awards />
       <Lesson />
-      <Footer />
     </>
   );
 }
